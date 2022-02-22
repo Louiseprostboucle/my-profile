@@ -1,0 +1,104 @@
+/* Colors and fonts */
+
+body {
+	background-color: mistyrose;
+	color: palevioletred;
+	font-family: courrier;
+	font-size: 20px;
+	text-align: center;
+	}
+
+h1, h2{
+	color: rosybrown;
+	text-transform: uppercase;
+	font-style: oblique;
+}
+
+h1 {
+	font-family: helvetica;
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size: 70px;
+}
+h2 {
+	font-size: 35px;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	text-decoration-color: lightpink;
+}
+
+a {
+	text-decoration: none;
+	color: saddlebrown;
+	font-weight: bolder;
+}
+a:hover {
+	color: sandybrown;
+}
+
+
+/* Customs and class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.card-beige {
+	background: seashell;
+    padding: 100px;
+    margin: 70px;
+    box-shadow: 0px 1px 9px;
+    border-radius: 6px;
+}
+
+#btn-brown {
+	background-color: papayawhip;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+#btn-brown:hover {
+	background-color: peachpuff;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
+#img-circle {
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px palevioletred;
+
+
+
+
+
+
+
+
